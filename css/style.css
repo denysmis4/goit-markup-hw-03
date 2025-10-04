@@ -108,42 +108,37 @@ a {
 }
 
 .first-section {
-  background-color: #2e2f42;
-  padding: 188px 0 188px;
-  text-align: center;
+  background-color: #2e2f42; /* фон секції на всю ширину */
+  padding: 188px 0; /* відступи зверху і знизу */
+  text-align: center; /* центрування контенту */
   width: 100%;
   box-sizing: border-box;
 }
 
 .container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 40px;
+  max-width: 1440px; /* обмежує ширину контенту */
+  margin: 0 auto; /* центрування контейнера */
+  padding: 0 40px; /* відступи з боків */
 }
 
-.main-heading {
-  max-width: 496px;
+.first-heading {
+  max-width: 496px; /* ширина заголовка */
+  margin: 0 auto 48px auto; /* центрування + відстань до кнопки */
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0 auto 48px auto;
-  text-align: center;
 }
 
-.main-heading span {
-  display: block;
-}
-
-.order-btn {
-  display: block;
-  margin: 0 auto;
-  min-width: 169px;
-  height: 56px;
-  border: none;
-  border-radius: 4px;
-  background-color: #4d5ae5;
+.order-button {
+  display: block; /* щоб можна було центр через margin */
+  margin: 0 auto; /* центрування кнопки */
+  min-width: 169px; /* мінімальна ширина */
+  height: 56px; /* висота кнопки */
+  border: none; /* відключення стандартного бордера */
+  border-radius: 4px; /* заокруглення кутів */
+  background-color: #4d5ae5; /* фон кнопки */
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -152,9 +147,9 @@ a {
   cursor: pointer;
 }
 
-.order-btn:hover,
-.order-btn:focus {
-  background-color: #404bbf;
+.order-button:hover,
+.order-button:focus {
+  background-color: #404bbf; /* ховер ефект */
 }
 
 .features-name,
