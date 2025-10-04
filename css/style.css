@@ -151,22 +151,6 @@ a {
   background-color: #404bbf;
 }
 
-.features-name,
-.ourteam-names {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-
-.features-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
 .features-section {
   padding: 120px 0;
 }
@@ -180,10 +164,16 @@ a {
 }
 
 .feature-item {
+  flex-basis: calc(
+    (100% - 3 * 24px) / 4
+  ); /* ширина всіх елементів, можна повторювати для всіх li */
+}
+
+/* Для першого елементу явно */
+.first-item {
   width: calc((100% - 3 * 24px) / 4);
 }
 
-/* враховуємо твій CSS */
 .features-name,
 .ourteam-names {
   font-weight: 500;
@@ -194,7 +184,7 @@ a {
   margin-bottom: 8px;
 }
 
-.feature-text {
+.features-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
