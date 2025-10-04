@@ -113,7 +113,7 @@ a {
   text-align: center; /* центрування контенту */
 }
 
-.first-container {
+.first-section .container {
   max-width: 1440px; /* обмеження ширини контенту */
   margin: 0 auto;
   padding: 0 40px; /* відступи з боків */
