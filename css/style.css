@@ -108,37 +108,39 @@ a {
 }
 
 .first-section {
-  background-color: #2e2f42; /* фон секції на всю ширину */
+  background-color: #2e2f42; /* фон на всю ширину */
   padding: 188px 0; /* відступи зверху і знизу */
   text-align: center; /* центрування контенту */
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .container {
-  max-width: 1440px; /* обмежує ширину контенту */
-  margin: 0 auto; /* центрування контейнера */
+  max-width: 1440px; /* обмеження ширини контенту */
+  margin: 0 auto;
   padding: 0 40px; /* відступи з боків */
 }
 
-.first-heading {
-  max-width: 496px; /* ширина заголовка */
-  margin: 0 auto 48px auto; /* центрування + відстань до кнопки */
+.first-h {
   font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
+  font-size: 56px; /* розмір шрифту */
+  line-height: 1.07; /* міжрядковий інтервал */
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: #ffffff; /* білий текст */
+  text-align: center;
+  margin: 0 0 48px 0; /* відстань до кнопки */
+}
+
+.first-h span {
+  display: block; /* кожен рядок на окремому рядку */
 }
 
 .order-button {
-  display: block; /* щоб можна було центр через margin */
-  margin: 0 auto; /* центрування кнопки */
-  min-width: 169px; /* мінімальна ширина */
-  height: 56px; /* висота кнопки */
-  border: none; /* відключення стандартного бордера */
-  border-radius: 4px; /* заокруглення кутів */
-  background-color: #4d5ae5; /* фон кнопки */
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -149,7 +151,7 @@ a {
 
 .order-button:hover,
 .order-button:focus {
-  background-color: #404bbf; /* ховер ефект */
+  background-color: #404bbf;
 }
 
 .features-name,
