@@ -111,6 +111,7 @@ a {
   background-color: #2e2f42;
   padding: 188px 0;
   text-align: center;
+  width: 100%;
 }
 
 .first-h {
@@ -121,12 +122,8 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
   text-align: center;
-  margin: 0 0 48px 0;
-}
-.wrapper-for-h1 {
-  max-width: 496px;
-  margin: 0 auto 48px auto;
-  text-align: center;
+  margin-bottom: 48px;
+  display: inline-block;
 }
 
 .first-h span {
