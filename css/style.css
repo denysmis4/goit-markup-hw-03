@@ -154,7 +154,6 @@ a {
 .features-section {
   padding: 120px 0;
 }
-
 .features-list {
   display: flex;
   gap: 24px;
@@ -162,12 +161,10 @@ a {
   margin: 0;
   padding: 0;
 }
-
 .feature-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
   box-sizing: border-box;
 }
-
 .features-name {
   font-weight: 500;
   font-size: 20px;
@@ -176,7 +173,6 @@ a {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-
 .features-text {
   font-weight: 400;
   font-size: 16px;
@@ -184,7 +180,6 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
-
 .visually-hidden {
   position: absolute !important;
   width: 1px;
