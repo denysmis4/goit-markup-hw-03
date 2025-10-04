@@ -159,17 +159,16 @@ a {
   display: flex;
   gap: 24px;
   list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
 }
 
 .feature-item {
-  flex: 1 1 calc((100% - 3 * 24px) / 4);
+  flex-basis: calc((100% - 3 * 24px) / 4);
   box-sizing: border-box;
 }
 
-.features-name,
-.ourteam-names {
+.features-name {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
