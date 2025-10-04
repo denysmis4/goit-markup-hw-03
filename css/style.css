@@ -109,28 +109,35 @@ a {
 
 .first-section {
   background: #2e2f42;
-  padding: 188px 0 292px;
+  padding: 188px 0;
   text-align: center;
 }
 .container-s1 {
   max-width: 1440px;
   margin: 0 auto;
+  padding: 0 40px;
 }
 
 .first-h {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-  margin-bottom: 48px;
+  margin: 0 auto 48px auto;
 }
 .first-h span {
   display: block;
 }
 
 .order-button {
+  display: block; /* для центрування через margin */
+  margin: 0 auto; /* центрування кнопки */
+  min-width: 169px; /* мінімальна ширина */
+  height: 56px; /* висота кнопки */
+  border: none;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
@@ -138,7 +145,6 @@ a {
   letter-spacing: 0.04em;
   background-color: #4d5ae5;
   cursor: pointer;
-  padding: 16px 32px;
 }
 
 .order-button:hover,
