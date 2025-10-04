@@ -108,29 +108,23 @@ a {
 }
 
 .first-section {
-  background-color: #2e2f42; /* фон на всю ширину */
-  padding: 188px 0; /* відступи зверху і знизу */
-  text-align: center; /* центрування контенту */
-}
-
-.first-section .container {
-  max-width: 1440px; /* обмеження ширини контенту */
-  margin: 0 auto;
-  padding: 0 40px; /* відступи з боків */
+  background-color: #2e2f42;
+  padding: 188px 0;
+  text-align: center;
 }
 
 .first-h {
   font-weight: 700;
-  font-size: 56px; /* розмір шрифту */
-  line-height: 1.07; /* міжрядковий інтервал */
+  font-size: 56px;
+  line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff; /* білий текст */
+  color: #ffffff;
   text-align: center;
-  margin: 0 0 48px 0; /* відстань до кнопки */
+  margin: 0 0 48px 0;
 }
 
 .first-h span {
-  display: block; /* кожен рядок на окремому рядку */
+  display: block;
 }
 
 .order-button {
