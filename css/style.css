@@ -109,9 +109,11 @@ a {
 
 .first-section {
   background: #2e2f42;
+  padding: 188px 0;
 }
 
 .first-h {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -121,6 +123,10 @@ a {
 }
 
 .order-button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border-radius: 4px;
   color: #ffffff;
   font-weight: 500;
   font-size: 16px;
