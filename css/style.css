@@ -114,6 +114,7 @@ a {
 }
 
 .first-h {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -121,6 +122,11 @@ a {
   color: #ffffff;
   text-align: center;
   margin: 0 0 48px 0;
+}
+.wrapper-for-h1 {
+  max-width: 496px;
+  margin: 0 auto 48px auto;
+  text-align: center;
 }
 
 .first-h span {
