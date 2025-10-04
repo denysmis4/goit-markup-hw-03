@@ -152,26 +152,20 @@ a {
 }
 
 .features-section {
-  padding: 120px 0; /* відступ зверху та знизу секції */
+  padding: 120px 0; /* відступи всередині секції */
 }
 
 .features-list {
+  display: flex; /* елементи списку в ряд */
+  gap: 24px; /* відступ між елементами */
   list-style: none;
   padding: 0;
   margin: 0;
-  overflow: hidden; /* обгортає float елементи */
 }
 
 .feature-item {
-  float: left;
-  width: calc((100% - 3 * 24px) / 4);
-  margin-right: 24px; /* горизонтальний gap */
-  padding: 16px 0; /* вертикальні відступи всередині елемента */
+  flex: 1 1 calc((100% - 3 * 24px) / 4); /* ширина першого і всіх елементів */
   box-sizing: border-box;
-}
-
-.feature-item:last-child {
-  margin-right: 0;
 }
 
 .features-name,
