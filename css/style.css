@@ -195,11 +195,28 @@ a {
 }
 
 .ourteam-info {
-  background: #f4f4fd;
+  background: #f4f4fd; /* фон секції */
+  padding: 120px 0; /* відступи зверху і знизу */
+}
+
+.ourteam-list {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .ourteam-members {
-  background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  background-color: #ffffff; /* фон кожного елемента */
+  border-radius: 0 0 4px 4px;
+  box-sizing: border-box;
+}
+
+.ourteam-info-box {
+  padding: 32px 0;
+  text-align: center;
 }
 
 .ourteam-title {
@@ -210,6 +227,11 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px; /* відступ після заголовка */
+}
+
+.ourteam-names {
+  margin-bottom: 8px; /* відступ між h3 і p */
 }
 
 .ourteam-text {
