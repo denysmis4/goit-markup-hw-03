@@ -108,36 +108,37 @@ a {
 }
 
 .first-section {
-  background-color: #2e2f42; /* фон на всю секцію */
-  padding: 188px 0 188px; /* вертикальні відступи */
-  text-align: center; /* центрує весь контент */
-  width: 100%; /* щоб фон займав всю ширину */
+  background-color: #2e2f42;
+  padding: 188px 0 188px;
+  text-align: center;
+  width: 100%;
   box-sizing: border-box;
 }
 
 .container-1 {
-  max-width: 1440px; /* обмежує ширину контенту */
-  margin: 0 auto; /* центрує контейнер */
-  padding: 0 40px; /* відступи по боках на маленьких екранах */
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
 }
 
-.first-h {
-  max-width: 496px; /* обмежує ширину заголовка */
+.main-heading {
+  max-width: 496px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin: 0 auto 48px auto; /* відстань до кнопки + центрування */
+  margin: 0 auto 48px auto;
+  text-align: center;
 }
 
-.first-h span {
-  display: block; /* кожен рядок окремо */
+.main-heading span {
+  display: block;
 }
 
-.order-button {
-  display: block; /* щоб можна було центр через margin */
-  margin: 0 auto; /* центрування кнопки */
+.order-btn {
+  display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   border: none;
@@ -151,8 +152,8 @@ a {
   cursor: pointer;
 }
 
-.order-button:hover,
-.order-button:focus {
+.order-btn:hover,
+.order-btn:focus {
   background-color: #404bbf;
 }
 
