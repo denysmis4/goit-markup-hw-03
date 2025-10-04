@@ -152,22 +152,22 @@ a {
 }
 
 .features-section {
-  padding: 120px 0; /* вертикальні відступи секції */
+  padding: 120px 0;
 }
 
 .features-list {
-  display: flex; /* горизонтальне розташування елементів */
-  gap: 24px; /* відступи між елементами */
+  display: flex;
+  gap: 24px;
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .feature-item {
-  flex: 1 1 calc((100% - 3 * 24px) / 4); /* ширина елементів */
-  box-sizing: border-box;
+  width: calc((100% - 3 * 24px) / 4);
 }
 
+/* враховуємо твій CSS */
 .features-name,
 .ourteam-names {
   font-weight: 500;
@@ -175,10 +175,10 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px; /* відступ між заголовком і текстом */
+  margin-bottom: 8px;
 }
 
-.features-text {
+.feature-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -186,6 +186,7 @@ a {
   color: #434455;
 }
 
+/* Прихований заголовок */
 .visually-hidden {
   position: absolute !important;
   width: 1px;
