@@ -313,11 +313,13 @@ a {
   color: #434455;
 }
 
-.footer-footer {
+.footer-section {
   background-color: #2e2f42;
+  padding: 100px 0;
 }
 
 .footer-logo {
+  display: inline-block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -326,6 +328,7 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
+  margin-bottom: 16px;
 }
 
 .footer-logo-part {
@@ -337,4 +340,5 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
