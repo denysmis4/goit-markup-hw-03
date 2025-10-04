@@ -152,19 +152,19 @@ a {
 }
 
 .features-section {
-  padding: 120px 0; /* відступи всередині секції */
+  padding: 120px 0; /* вертикальні відступи секції */
 }
 
 .features-list {
-  display: flex; /* елементи списку в ряд */
-  gap: 24px; /* відступ між елементами */
+  display: flex; /* горизонтальне розташування елементів */
+  gap: 24px; /* відступи між елементами */
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
 .feature-item {
-  flex: 1 1 calc((100% - 3 * 24px) / 4); /* ширина першого і всіх елементів */
+  flex: 1 1 calc((100% - 3 * 24px) / 4); /* ширина елементів */
   box-sizing: border-box;
 }
 
