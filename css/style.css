@@ -263,7 +263,15 @@ a {
   padding: 120px 0;
 }
 
+.portfolio-page .container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
 .portfolio-title {
+  margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -271,7 +279,6 @@ a {
   text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
-  margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -279,7 +286,7 @@ a {
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  list-style: none;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
@@ -297,12 +304,12 @@ a {
 }
 
 .portfolio-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-bottom: 8px;
 }
 
 .portfolio-text {
