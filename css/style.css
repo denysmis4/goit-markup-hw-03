@@ -259,11 +259,11 @@ a {
   white-space: nowrap;
   border: 0;
 }
-.portfolio-page {
+.portfolio-section {
   padding: 120px 0;
 }
 
-.portfolio-page .container {
+.container {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -296,10 +296,18 @@ a {
   box-sizing: border-box;
 }
 
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 .portfolio-content {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
